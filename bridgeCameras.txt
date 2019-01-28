@@ -1,0 +1,18 @@
+CAMERAS
+
+http://zbc01.elpasotexas.gov
+https://bwt.cbp.gov/index.html
+
+Zaragoza (Ysleta)
+http://zbc01.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+http://zbc02.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+
+Centro (Paso Del Norte / Santa Fe)
+http://pdnc02.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+http://pdnc01.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+http://pdnc03.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+http://pdnc04.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+
+Express
+http://sbc01.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
+http://sbc02.elpasotexas.gov/axis-cgi/jpg/image.cgi?resolution=CIF
