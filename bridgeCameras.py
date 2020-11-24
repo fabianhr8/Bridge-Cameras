@@ -1,25 +1,16 @@
 import urllib.request
 from tkinter import *
 from PIL import Image, ImageTk
-import time
-import psutil
-import numpy as np
-import cv2
-import os
 
+# Set up guide
 bridge = Tk()
 bridge.title('Open Bridge')
 bridge.geometry('300x100')
 
-
+# Get URL of cammeras from text document
 camerasLinks = open("bridgeCameras.txt", "r")     #read cameras file
-
 lineNum = []
 i = 0
-
-global zara1Img
-global zara2Img
-
 
 for line in camerasLinks:       # Orginize each line on the file
     lineNum.append(line)
@@ -101,10 +92,9 @@ def express():
 
 
 ########## Main function
-#def main():
 
 label1 = Label(bridge, text = 'Choose your bridge:')
-label1.grid(row = 0, columnspan = 3)
+label1.grid(row = 0)
 zaragoza_button = Button(bridge, text = 'Zaragoza', command=zaragoza)
 zaragoza_button.grid(row = 1, column = 0)
 centro_button = Button(bridge, text = 'Centro', command=centro)
@@ -113,12 +103,6 @@ express_button = Button(bridge, text = 'Express', command=express)
 express_button.grid(row = 1, column = 2)
 exit_button = Button(bridge, text = 'Exit', command = bridge.destroy)
 exit_button.grid(row = 2, columnspan = 3)
-#bridge.bind("<Escape>", bridge.destroy)        #
 
 bridge.mainloop()
-
-
-
-
-
 
